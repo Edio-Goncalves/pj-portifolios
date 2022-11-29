@@ -16,13 +16,13 @@ a {
   align-items: center;
   color: var(--color-third);
   font-size: 20px;
-  font-family: "fira code";
+  font-family: "Fira Code", sans-serif;
   font-weight: 500;
   text-decoration: none;
   margin-right: 30px;
   transition: 0.2s linear;
 }
-a::before {
+#menu a::before {
   /* elemento criado em conjunto de "display: inline-flex" e "align-items: center" */
   content: ""; /* obrigatório com o pseudo elemento */
   background-color: var(--color-first);
@@ -34,18 +34,35 @@ a:hover {
   color: var(--color-avatar-a);
   transform: scale(1.05);
 }
-#download-cv {
-  display: inline-block;
-  background-color: var(--color-first);
-  font-family: "fira code";
-  padding: 17px 20px;
-  margin-right: 0px;
-  box-shadow: 5px 5px 0 var(--color-black-first); /* eixo x, eixo y, blur , cor */
-  transition: 200ms linear; /* usamos ela para fazer o transito pelo tempo do hover aplicado ao "id", funciona com qualquer propriedade que tenha começo, meio e fim */
+.banner {
+  display: flex;
+  overflow: hidden;
+  background-image: url(/assets/image/photo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 807px;
 }
-#download-cv:hover {
-  /* usado para mudar comportamento */
-  background-color: var(--color-avatar-a);
-  color: var(--color-second);
-  transform: scale(1.05);
+.banner img {
+  display: inline-block;
+}
+.banner-container {
+  position: absolute;
+
+  height: 184px;
+  width: 627px;
+  margin-top: 116px;
+  margin-left: 91px;
+
+  background-color: var(--color-black-second);
+  box-shadow: 10px 10px 0 var(--color-black-first);
+  padding-top: 50px;
+  line-height: 65px;
+}
+.mr {
+  margin-right: 112px;
+}
+.contato {
+  position: absolute;
+  margin-top: 422px;
+  margin-left: 181px;
 }

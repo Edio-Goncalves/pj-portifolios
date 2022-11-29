@@ -1,0 +1,16 @@
+.button,
+.contato a {
+  display: inline-block;
+  background-color: var(--color-first);
+  font-family: "Fira Code", sans-serif;
+  padding: 17px 20px;
+  margin-left: 0px;
+  box-shadow: 5px 5px 0 var(--color-black-first); /* eixo x, eixo y, blur , cor */
+  transition: 200ms linear; /* usamos ela para fazer o transito pelo tempo do hover aplicado ao "id", funciona com qualquer propriedade que tenha começo, meio e fim */
+}
+.button:hover {
+  /* usado para mudar comportamento */
+  background-color: var(--color-avatar-a);
+  color: var(--color-second);
+  transform: scale(1.05);
+}
