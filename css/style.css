@@ -45,19 +45,6 @@ a:hover {
 .banner img {
   display: inline-block;
 }
-.banner-container {
-  position: absolute;
-
-  height: 184px;
-  width: 627px;
-  margin-top: 116px;
-  margin-left: 91px;
-
-  background-color: var(--color-black-second);
-  box-shadow: 10px 10px 0 var(--color-black-first);
-  padding-top: 50px;
-  line-height: 65px;
-}
 .mr {
   margin-right: 112px;
 }
