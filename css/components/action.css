@@ -1,0 +1,25 @@
+.action {
+  display: inline-flex;
+  align-items: center;
+  color: var(--color-third);
+  font-size: 20px;
+  font-family: "Fira Code", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 30px;
+  transition: 0.2s linear;
+}
+
+.action:hover {
+  color: var(--color-avatar-a);
+  transform: scale(1.05);
+}
+
+.navigation a::before {
+  /* elemento criado em conjunto de "display: inline-flex" e "align-items: center" */
+  content: ""; /* obrigatório com o pseudo elemento */
+  background-color: var(--color-first);
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
