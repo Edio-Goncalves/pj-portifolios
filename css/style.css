@@ -1,21 +1,8 @@
-.banner {
-  display: flex;
-  overflow: hidden;
-  background-image: url(/assets/image/photo.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 807px;
-}
-
-.banner img {
-  display: inline-block;
-}
-
 .mr {
   margin-right: 112px;
 }
 
-.contato {
+.contact {
   position: absolute;
   margin-top: 422px;
   margin-left: 181px;

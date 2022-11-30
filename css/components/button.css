@@ -1,5 +1,5 @@
 .button,
-.contato a {
+.contact a {
   display: inline-block;
   background-color: var(--color-first);
   color: var(--color-third);
@@ -15,7 +15,7 @@
 }
 
 .button:hover,
-.contato a:hover {
+.contact a:hover {
   /* usado para mudar comportamento */
   background-color: var(--color-avatar-a);
   color: var(--color-second);

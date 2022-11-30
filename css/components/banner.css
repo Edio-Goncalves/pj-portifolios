@@ -1,0 +1,14 @@
+.banner {
+  display: flex;
+  overflow: hidden;
+
+  background-image: url(/assets/image/photo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  border-bottom: 10px solid black;
+}
+
+.banner img {
+  display: inline-block;
+}
