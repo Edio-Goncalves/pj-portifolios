@@ -1,5 +1,4 @@
-.button,
-.contact a {
+.button {
   display: inline-block;
   background-color: var(--color-first);
   color: var(--color-third);
@@ -14,8 +13,7 @@
   funciona com qualquer propriedade que tenha começo, meio e fim */
 }
 
-.button:hover,
-.contact a:hover {
+.button:hover {
   /* usado para mudar comportamento */
   background-color: var(--color-avatar-a);
   color: var(--color-second);

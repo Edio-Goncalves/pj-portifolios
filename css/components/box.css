@@ -1,12 +1,7 @@
 .box {
-  position: absolute;
   display: inline-block; /* para deixar a box com comportamento de linha e poder usar tamanho dentro 
   para dimensionar a box, ex: padding para dar respiro ao conteudo e assim formando o tamanho da box 
   de acordo com o conteudo. */
-
-  width: 627px;
-  margin-top: 184px;
-  margin-left: 91px;
 
   background-color: var(--color-black-second);
   box-shadow: 10px 10px 0 var(--color-black-first);
