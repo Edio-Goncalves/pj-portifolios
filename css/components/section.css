@@ -2,7 +2,7 @@
   background-color: var(--color-first);
   text-align: center;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
   border-bottom: 10px solid var(--color-second);
 }
 .container {
