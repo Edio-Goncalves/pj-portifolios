@@ -1,0 +1,30 @@
+.skill-tec {
+  color: var(--color-third);
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 25px;
+
+  display: inline-flex;
+}
+
+.skill-tec .ico {
+  width: 90px;
+  height: 90px;
+  margin-right: 25px;
+}
+.skill-tec .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.progress-bar {
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 5px solid #000;
+  min-height: 40px;
+  width: 320px;
+}
+.progress-bar::-webkit-progress-bar {
+  background-color: white;
+}
