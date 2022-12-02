@@ -4,27 +4,31 @@
   font-size: 25px;
 
   display: inline-flex;
+  align-items: center; /* para tirar o bug da imagem, o padrão do flex é em strech */
 }
 
 .skill-tec .ico {
+  margin-right: 25px;
   width: 90px;
   height: 90px;
-  margin-right: 25px;
 }
+
 .skill-tec .right {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   text-align: left;
 }
+.skill-tec h2 {
+  margin-bottom: 10px;
+}
 
 .progress-bar {
   box-sizing: border-box;
   background-color: #fff;
   border: 5px solid #000;
-  min-height: 40px;
-  width: 320px;
 }
+
 .progress-bar::-webkit-progress-bar {
   background-color: white;
 }
