@@ -6,7 +6,7 @@
   border-bottom: 10px solid var(--color-second);
 }
 
-.main-section.-second {
+.main-section.-black {
   background-color: black;
   border-bottom: 10px solid var(--color-first);
 }

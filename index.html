@@ -16,12 +16,12 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/colors.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/components/header.css" />
-    <link rel="stylesheet" href="css/components/banner.css" />
-    <link rel="stylesheet" href="css/components/action.css" />
+    <link rel="stylesheet" href="css/components/main-header.css" />
+    <link rel="stylesheet" href="css/components/main-banner.css" />
+    <link rel="stylesheet" href="css/components/main-action.css" />
     <link rel="stylesheet" href="css/components/main-tittle.css" />
     <link rel="stylesheet" href="css/components/main-button.css" />
-    <link rel="stylesheet" href="css/components/box.css" />
+    <link rel="stylesheet" href="css/components/main-box.css" />
     <link rel="stylesheet" href="css/components/main-section.css" />
     <link rel="stylesheet" href="css/components/skills-tec.css" />
     <link rel="stylesheet" href="css/components/wrapper-skills.css" />
@@ -31,20 +31,20 @@
   </head>
 
   <body>
-    <header class="header">
+    <header class="main-header">
       <img src="assets/image/avatar_a.png" alt="logo" />
 
       <nav class="navigation">
-        <a class="action" href="#">Skills</a>
-        <a class="action" href="#">Projetos</a>
-        <a class="action" href="#">Sobre</a>
-        <a class="action" href="#">Contatos</a>
+        <a class="main-action" href="#">Skills</a>
+        <a class="main-action" href="#">Projetos</a>
+        <a class="main-action" href="#">Sobre</a>
+        <a class="main-action" href="#">Contatos</a>
         <a class="main-button" href="#">Download CV</a>
       </nav>
     </header>
-    <section class="banner">
+    <section class="main-banner">
       <div class="wrapper">
-        <div class="box">
+        <div class="main-box">
           <h1 class="main-tittle">Edio Gonçalves Junior</h1>
           <h2 class="main-subtitle">FrontEnd Developer</h2>
         </div>
@@ -113,31 +113,34 @@
       </div>
     </section>
 
-    <section class="main-section -second">
+    <section class="main-section -black">
       <h2 class="main-tittle -second">Projetos</h2>
 
       <div class="wrapper-project">
-        <figure class="card-project">
-          <img
-            class="logo"
-            src="assets/image/logo-firedlabs.png"
-            alt="logo do firedlabs"
-          />
-        </figure>
-        <figure class="card-project">
-          <img
-            class="logo"
-            src="assets/image/logo-collabcode.png"
-            alt="logo collabcode"
-          />
-        </figure>
-        <figure class="card-project">
-          <img
-            class="logo"
-            src="assets/image/avatar_a.png"
-            alt="logo do portifolio"
-          />
-        </figure>
+        <a href="www.com">
+          <figure class="card-project">
+            <img
+              class="logo"
+              src="assets/image/logo-firedlabs.png"
+              alt="logo do firedlabs"
+            /></figure
+        ></a>
+        <a href="https://medium.com/collabcode" target="_blank">
+          <figure class="card-project">
+            <img
+              class="logo"
+              src="assets/image/logo-collabcode.png"
+              alt="logo collabcode"
+            /></figure
+        ></a>
+        <a href="https://edio-goncalves.github.io/pj-portifolios/">
+          <figure class="card-project">
+            <img
+              class="logo"
+              src="assets/image/avatar_a.png"
+              alt="logo do portifolio"
+            /></figure
+        ></a>
       </div>
     </section>
   </body>
