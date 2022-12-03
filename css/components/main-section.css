@@ -10,3 +10,8 @@
   background-color: black;
   border-bottom: 10px solid var(--color-first);
 }
+
+.main-section.-purple {
+  background-color: var(--color-second);
+  border-bottom: 10px solid var(--color-black-first);
+}

@@ -1,0 +1,9 @@
+.main-description {
+  font-family: "Fira Code", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: var(--color-third);
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
+}
