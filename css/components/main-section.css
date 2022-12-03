@@ -1,10 +1,12 @@
-.section {
+.main-section {
   background-color: var(--color-first);
   text-align: center;
   padding-top: 50px;
   padding-bottom: 100px;
   border-bottom: 10px solid var(--color-second);
 }
-.container {
-  background-color: aqua;
+
+.main-section.-second {
+  background-color: black;
+  border-bottom: 10px solid var(--color-first);
 }

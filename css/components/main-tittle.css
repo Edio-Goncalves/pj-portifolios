@@ -1,5 +1,5 @@
 .main-tittle,
-.subtitle {
+.main-subtitle {
   font-size: 27px;
   color: var(--color-first);
 
@@ -8,12 +8,12 @@
   text-shadow: 4px 4px 0px #000;
 }
 
-.subtitle {
+.main-subtitle {
   font-size: 25px;
   color: var(--color-third);
 }
 
-.subtitle.-second {
+.main-subtitle.-second {
   text-shadow: none;
   font-size: 25px;
   text-align: left;
