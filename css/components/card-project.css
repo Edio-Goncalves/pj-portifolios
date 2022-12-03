@@ -1,0 +1,22 @@
+.card-project {
+  height: 280px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-project:first-child {
+  background-color: var(--color-second);
+  box-shadow: 10px 10px 0 var(--color-third);
+}
+
+.card-project:nth-child(2) {
+  background-color: var(--color-fourth);
+  box-shadow: 10px 10px 0 var(--color-third);
+}
+
+.card-project:nth-child(3) {
+  background-color: var(--color-avatar-a);
+  box-shadow: 10px 10px 0 var(--color-third);
+}
