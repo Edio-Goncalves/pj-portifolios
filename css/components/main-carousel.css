@@ -2,6 +2,30 @@
   position: relative;
   background-color: aqua;
   padding: 0px 70px;
+  margin-bottom: 50px;
+}
+
+.main-carousel::after {
+  content: "";
+  display: block;
+  height: 5px;
+  width: calc(100% - 100px);
+  background-color: #000;
+
+  position: absolute;
+  top: 42px;
+  left: 50px;
+}
+
+.main-carousel::before {
+  content: "";
+  display: block;
+  width: 100%;
+  border: 3px dashed #000;
+
+  position: absolute;
+  top: 42px;
+  left: 0px;
 }
 
 /* para posicionar a seta de acordo com o pai */

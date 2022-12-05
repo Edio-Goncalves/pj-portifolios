@@ -26,6 +26,13 @@
   margin-bottom: 50px;
 }
 
+.node-card .tittle::after {
+  content: " ";
+  max-width: max-content;
+  border-top: 3px solid black;
+  bottom: 170px;
+}
+
 .node-card .localweb {
   padding: 51.5px 20px;
   background-color: var(--color-warning);
