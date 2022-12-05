@@ -1,0 +1,56 @@
+.node-card {
+  display: inline-flex;
+  justify-content: center;
+
+  padding-top: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
+
+  position: relative; /* para poder posicionar o "node-card::before" */
+}
+
+.node-card::before {
+  content: " ";
+  width: 40px;
+  border-top: 3px dashed black;
+  transform: rotate(90deg);
+  position: absolute;
+  bottom: 170px;
+}
+
+.node-card .tittle {
+  color: var(--color-first);
+  font-size: 25px;
+  font-weight: 400px;
+  font-family: "Press Start 2P", sans-serif;
+  margin-bottom: 50px;
+}
+
+.node-card .localweb {
+  padding: 51.5px 20px;
+  background-color: var(--color-warning);
+  border: 5px solid #000;
+}
+
+.node-card .caelum {
+  border: 5px solid #000;
+}
+
+.node-card .getninjas {
+  padding: 15px 10px;
+  background-color: var(--color-first);
+  border: 5px solid #000;
+}
+
+.node-card .impulso {
+  padding: 46px 20px;
+  background-color: var(--color-warning);
+  border: 5px solid #000;
+}
+
+.node-card .collabcode {
+  height: 120px;
+  padding: 10px;
+  background-color: var(--color-first);
+  border: 5px solid #000;
+}
