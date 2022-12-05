@@ -1,0 +1,9 @@
+.main-footer {
+  background-color: var(--color-black-first);
+  text-align: center;
+  padding: 28px 0px;
+}
+
+.main-footer .img {
+  margin: 20px;
+}

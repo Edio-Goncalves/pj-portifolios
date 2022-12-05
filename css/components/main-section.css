@@ -16,3 +16,8 @@
   border-bottom: 10px solid var(--color-black-first);
   position: relative;
 }
+
+.main-section.-gray {
+  background-color: var(--color-black-second);
+  border-bottom: 10px solid var(--color-first);
+}
