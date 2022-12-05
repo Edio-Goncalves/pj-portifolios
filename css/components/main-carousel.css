@@ -1,0 +1,20 @@
+.main-carousel {
+  position: relative;
+  background-color: aqua;
+  padding: 0px 70px;
+}
+
+/* para posicionar a seta de acordo com o pai */
+.main-carousel .button-arrow {
+  position: absolute;
+  /* bottom: 55px; */
+  transform: translateY(250%);
+}
+
+.main-carousel .button-arrow.-left {
+  left: 15px;
+}
+
+.main-carousel .button-arrow.-right {
+  right: 15px;
+}
