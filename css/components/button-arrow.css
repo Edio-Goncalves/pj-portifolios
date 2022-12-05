@@ -1,0 +1,29 @@
+.button-arrow {
+  height: 50px;
+  width: 50px;
+  background-color: var(--color-first);
+  box-shadow: 5px 5px 0px var(--color-black-first);
+  border: none;
+  cursor: pointer;
+}
+
+/* para retirar um texto do siplay. Usado junto com <span> por que ele não ésemantico */
+.button-arrow .content {
+  display: none;
+}
+
+/* para criar setas a partir de bordas */
+.button-arrow::before {
+  content: " ";
+  display: block;
+  box-sizing: border-box;
+
+  border: 17px solid transparent;
+  border-left: 28px solid white;
+  transform: translateX(6px);
+}
+
+/* para mudar a direção da seta */
+.button-arrow.-left::before {
+  transform: rotate(180deg) translatex(12px);
+}
