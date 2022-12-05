@@ -1,8 +1,9 @@
 .main-carousel {
   position: relative;
-  background-color: aqua;
-  padding: 0px 70px;
+  padding: 0px 100px;
   margin-bottom: 50px;
+
+  overflow: hidden;
 }
 
 .main-carousel::after {
@@ -31,8 +32,7 @@
 /* para posicionar a seta de acordo com o pai */
 .main-carousel .button-arrow {
   position: absolute;
-  /* bottom: 55px; */
-  transform: translateY(250%);
+  bottom: 25%;
 }
 
 .main-carousel .button-arrow.-left {
@@ -41,4 +41,12 @@
 
 .main-carousel .button-arrow.-right {
   right: 15px;
+}
+
+.main-carousel .items {
+  overflow: hidden;
+}
+
+.main-carousel .elements {
+  transition: transform 200ms linear;
 }
