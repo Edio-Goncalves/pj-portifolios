@@ -19,3 +19,13 @@
   color: var(--color-second);
   transform: scale(1.05);
 }
+
+.main-button.-full {
+  border: none;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.main-button.-full:hover {
+  transform: scale(1.02);
+}

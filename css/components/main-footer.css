@@ -1,9 +1,13 @@
 .main-footer {
   background-color: var(--color-black-first);
   text-align: center;
-  padding: 28px 0px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+
+  position: absolute;
+  width: 100%;
 }
 
-.main-footer .img {
+.main-footer .items {
   margin: 20px;
 }

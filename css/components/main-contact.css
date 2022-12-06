@@ -10,11 +10,21 @@
   text-align: left;
 }
 
-.main-contact input,
-.main-contact textarea {
+.main-contact .input {
   font-size: 20px;
   border: 5px solid black;
   padding: 10px;
   margin-bottom: 30px;
   box-sizing: border-box;
+}
+
+.main-contact .label {
+  color: #fff;
+  font-size: 30px;
+  font-family: "Fira Code", sans-serif;
+  margin-bottom: 5px;
+}
+
+.main-contact .input.-textarea {
+  height: 300px;
 }
