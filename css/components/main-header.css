@@ -10,7 +10,7 @@
   width: 60px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 980px) {
   .main-header > .navigation {
     display: none;
   }
