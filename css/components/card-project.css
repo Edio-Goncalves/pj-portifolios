@@ -20,3 +20,13 @@
   background-color: var(--color-avatar-a);
   box-shadow: 10px 10px 0 var(--color-third);
 }
+
+@media screen and (max-width: 1000px) {
+  .card-project {
+    height: 220px;
+    width: 220px;
+  }
+  .logo {
+    height: 190px;
+  }
+}
