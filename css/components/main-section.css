@@ -21,3 +21,10 @@
   background-color: var(--color-black-second);
   border-bottom: 10px solid var(--color-first);
 }
+
+@media screen and (max-width: 1000px) {
+  .main-section.-gray {
+    padding-bottom: 00px;
+    padding-top: 20px;
+  }
+}
