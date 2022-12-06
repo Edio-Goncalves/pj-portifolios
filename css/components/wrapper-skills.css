@@ -18,6 +18,16 @@
   width: 240px;
 }
 
+@media screen and (max-width: 600px) {
+  .wrapper-skill .progress-bar {
+    height: 30px;
+    width: 200px;
+  }
+  .wrapper-skill .skill-tec {
+    margin-bottom: 30px;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .wrapper-skill {
     flex-direction: column;
