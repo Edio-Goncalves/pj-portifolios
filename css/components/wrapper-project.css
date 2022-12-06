@@ -5,3 +5,23 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 1000px) {
+  .wrapper-project {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-project {
+    margin-bottom: 30px;
+  }
+  .main-section.-black {
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .wrapper-project {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
