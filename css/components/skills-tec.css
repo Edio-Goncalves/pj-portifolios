@@ -1,5 +1,5 @@
 .skill-tec {
-  color: var(--color-third);
+  color: var(--color-b-first);
   font-family: "Press Start 2P", sans-serif;
   font-size: 25px;
 
@@ -25,12 +25,12 @@
 
 .progress-bar {
   box-sizing: border-box;
-  background-color: #fff;
+  background-color: var(--color-o-fifth);
   border: 5px solid #000;
 }
 
 .progress-bar::-webkit-progress-bar {
-  background-color: white;
+  background-color: var(--color-o-fifth);
 }
 
 @media screen and (max-width: 615px) {

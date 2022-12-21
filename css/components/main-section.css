@@ -1,25 +1,25 @@
 .main-section {
-  background-color: var(--color-first);
+  background-color: var(--color-o-third);
   text-align: center;
   padding-top: 50px;
   padding-bottom: 100px;
-  border-bottom: 10px solid var(--color-second);
+  border-bottom: 10px solid var(--color-b-third);
 }
 
 .main-section.-black {
-  background-color: black;
-  border-bottom: 10px solid var(--color-first);
+  background-color: var(--color-black-first);
+  border-bottom: 10px solid var(--color-o-second);
 }
 
 .main-section.-purple {
-  background-color: var(--color-second);
+  background-color: var(--color-b-third);
   border-bottom: 10px solid var(--color-black-first);
   position: relative;
 }
 
 .main-section.-gray {
   background-color: var(--color-black-second);
-  border-bottom: 10px solid var(--color-first);
+  border-bottom: 10px solid var(--color-o-second);
 }
 
 @media screen and (max-width: 1000px) {

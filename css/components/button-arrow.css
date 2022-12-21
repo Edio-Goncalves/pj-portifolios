@@ -1,7 +1,7 @@
 .button-arrow {
   height: 50px;
   width: 50px;
-  background-color: var(--color-first);
+  background-color: var(--color-o-third);
   box-shadow: 5px 5px 0px var(--color-black-first);
   border: none;
   cursor: pointer;
@@ -19,11 +19,15 @@
   box-sizing: border-box;
 
   border: 17px solid transparent;
-  border-left: 28px solid white;
+  border-left: 28px solid var(--color-b-third);
   transform: translateX(6px);
 }
 
 /* para mudar a direção da seta */
 .button-arrow.-left::before {
   transform: rotate(180deg) translatex(12px);
+}
+
+.button-arrow:hover {
+  transform: scale(1.04);
 }

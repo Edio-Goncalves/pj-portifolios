@@ -19,6 +19,8 @@
 
   margin-top: 235px;
   margin-left: 10px;
+
+  transition: all 250ms linear;
 }
 .main-banner .navigation {
   display: flex;
@@ -29,6 +31,7 @@
 @media screen and (max-width: 1500px) {
   .main-banner .wrapper {
     width: 540px;
+    transition: none;
   }
   .main-banner .wrapper .main-box .main-tittle {
     line-height: 1.5;
@@ -39,7 +42,7 @@
   .main-banner .wrapper {
     width: 100%;
     position: relative;
-    background-color: var(--color-black-second);
+    background-color: var(--color-b-third);
     margin-top: 0px;
     margin-left: 0px;
   }

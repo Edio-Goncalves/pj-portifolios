@@ -16,7 +16,7 @@
   display: block;
   height: 6px;
   width: calc(100% - 100px);
-  background-color: #000;
+  background-color: var(--color-black-first);
 
   position: absolute;
   top: 42px;

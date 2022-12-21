@@ -1,7 +1,7 @@
 .main-tittle,
 .main-subtitle {
   font-size: 27px;
-  color: var(--color-first);
+  color: var(--color-o-fifth);
 
   font-family: "Press Start 2P", sans-serif;
   font-weight: 400px;
@@ -10,7 +10,7 @@
 
 .main-subtitle {
   font-size: 25px;
-  color: var(--color-third);
+  color: var(--color-o-fifth);
 }
 
 .main-subtitle.-second {
@@ -23,11 +23,15 @@
 }
 
 .main-tittle.-second {
-  color: var(--color-third);
+  color: var(--color-o-fifth);
   text-shadow: none;
   font-size: 40px;
   margin-bottom: 60px;
   font-family: "Press Start 2P", sans-serif;
+}
+
+.main-tittle.-second.-dark {
+  color: var(--color-b-first);
 }
 
 @media screen and (max-width: 610px) {

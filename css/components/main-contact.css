@@ -19,7 +19,7 @@
 }
 
 .main-contact .label {
-  color: #fff;
+  color: var(--color-o-fifth);
   font-size: 30px;
   font-family: "Fira Code", sans-serif;
   margin-bottom: 5px;

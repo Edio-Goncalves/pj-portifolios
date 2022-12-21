@@ -1,22 +1,20 @@
 .main-button {
   display: inline-block;
-  background-color: var(--color-first);
-  color: var(--color-third);
+  background-color: var(--color-b-first);
+  color: var(--color-o-fifth);
   font-size: 20px;
   text-decoration: none;
 
   font-family: "Fira Code", sans-serif;
   padding: 17px 20px;
   margin-left: 0px;
-  box-shadow: 5px 5px 0 var(--color-black-first); /* eixo x, eixo y, blur , cor */
-  transition: 200ms linear; /* usamos ela para fazer o transito pelo tempo do hover aplicado ao "id", 
-  funciona com qualquer propriedade que tenha começo, meio e fim */
+  box-shadow: 5px 5px 0 var(--color-black-first);
+  transition: 200ms linear;
 }
 
 .main-button:hover {
-  /* usado para mudar comportamento */
-  background-color: var(--color-avatar-a);
-  color: var(--color-second);
+  background-color: var(--color-o-third);
+  color: var(--color-b-second);
   transform: scale(1.05);
 }
 
@@ -24,8 +22,10 @@
   border: none;
   margin-bottom: 50px;
   cursor: pointer;
+  box-shadow: 5px 5px 0 var(--color-o-fifth);
 }
 
 .main-button.-full:hover {
   transform: scale(1.02);
+  box-shadow: 5px 5px 0 var(--color-b-fifth);
 }

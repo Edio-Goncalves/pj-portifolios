@@ -1,9 +1,6 @@
 .main-box {
-  display: inline-block; /* para deixar a box com comportamento de linha e poder usar tamanho dentro 
-  para dimensionar a box, ex: padding para dar respiro ao conteudo e assim formando o tamanho da box 
-  de acordo com o conteudo. */
-
-  background-color: var(--color-black-second);
+  display: inline-block;
+  background-color: var(--color-b-third);
   box-shadow: 10px 10px 0 var(--color-black-first);
   padding: 43px 20px;
 
