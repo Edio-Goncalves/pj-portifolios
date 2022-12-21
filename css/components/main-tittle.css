@@ -33,16 +33,3 @@
 .main-tittle.-second.-dark {
   color: var(--color-b-first);
 }
-
-@media screen and (max-width: 610px) {
-  .main-tittle.-second {
-    margin-bottom: 15px;
-  }
-}
-
-@media screen and (max-width: 815px) {
-  .main-tittle.-second {
-    font-size: 20px;
-    margin-bottom: 25px;
-  }
-}

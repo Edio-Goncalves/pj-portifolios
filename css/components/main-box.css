@@ -10,9 +10,3 @@
 .main-box .main-tittle {
   margin-bottom: 38px;
 }
-
-@media screen and (max-width: 610px) {
-  .main-box .main-tittle {
-    margin-bottom: 15px;
-  }
-}

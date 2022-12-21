@@ -28,20 +28,3 @@
 .main-contact .input.-textarea {
   height: 300px;
 }
-
-@media screen and (max-width: 600px) {
-  .main-contact {
-    margin-left: 25px;
-    margin-right: 25px;
-    padding-bottom: 0px;
-  }
-}
-
-@media screen and (max-width: 815px) {
-  .main-contact .label {
-    font-size: 20px;
-  }
-  .main-contact .input {
-    border: 3px solid black;
-  }
-}

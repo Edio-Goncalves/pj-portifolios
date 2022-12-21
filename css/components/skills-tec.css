@@ -32,17 +32,3 @@
 .progress-bar::-webkit-progress-bar {
   background-color: var(--color-o-fifth);
 }
-
-@media screen and (max-width: 615px) {
-  .skill-tec {
-    font-size: 18px;
-  }
-  .skill-tec .ico {
-    margin-right: 15px;
-    width: 60px;
-    height: 60px;
-  }
-  .progress-bar {
-    border: 4px solid #000;
-  }
-}

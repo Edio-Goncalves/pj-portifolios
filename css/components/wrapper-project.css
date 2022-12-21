@@ -23,10 +23,3 @@
     height: 180px;
   }
 }
-
-@media screen and (max-width: 1500px) {
-  .wrapper-project {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-}

@@ -8,9 +8,3 @@
   margin-left: 10%;
   margin-right: 10%;
 }
-
-@media screen and (max-width: 815px) {
-  .main-description {
-    font-size: 18px;
-  }
-}

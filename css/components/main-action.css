@@ -16,8 +16,7 @@
 }
 
 .navigation a::before {
-  /* elemento criado em conjunto de "display: inline-flex" e "align-items: center" */
-  content: ""; /* obrigatório com o pseudo elemento */
+  content: "";
   background-color: var(--color-o-third);
   width: 10px;
   height: 10px;
