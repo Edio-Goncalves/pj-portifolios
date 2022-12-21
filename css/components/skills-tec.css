@@ -4,7 +4,7 @@
   font-size: 25px;
 
   display: inline-flex;
-  align-items: center; /* para tirar o bug da imagem, o padrão do flex é em strech */
+  align-items: center;
 }
 
 .skill-tec .ico {
