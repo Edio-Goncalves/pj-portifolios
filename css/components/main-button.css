@@ -20,9 +20,10 @@
 
 .main-button.-full {
   border: none;
-  /* margin-bottom: 50px; */
   cursor: pointer;
   box-shadow: 5px 5px 0 var(--color-o-fifth);
+  width: 90%;
+  margin: auto;
 }
 
 .main-button.-full:hover {

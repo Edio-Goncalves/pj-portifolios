@@ -1,7 +1,7 @@
 .main-description {
   font-family: "Fira Code", sans-serif;
   font-weight: 300;
-  font-size: 30px;
+  font-size: var(--font-30);
   line-height: 1.3;
   color: var(--color-o-fifth);
   text-align: justify;
