@@ -6,5 +6,14 @@
 }
 
 .main-footer .items {
-  margin: 20px;
+  margin: min(20px, 4vw);
+}
+.main-footer .items .imgMedia {
+  height: min(45px, 8vw);
+  width: min(45px, 8vw);
+  transition: 200ms;
+}
+
+.main-footer .items .imgMedia:hover {
+  transform: scale(1.1);
 }
