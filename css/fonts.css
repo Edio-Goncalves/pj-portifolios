@@ -2,7 +2,7 @@
   --font-14: 14px;
   --font-16: 16px;
   --font-18: 18px;
-  --font-20: 20px;
+  --font-20: clamp(14px, 14px + 0.4vw, 20px);
   --font-22: 22px;
   --font-24: 24px;
   --font-26: 26px;
@@ -15,3 +15,28 @@
   --line-height-24: 24px;
   --line-height-26: 26px;
 }
+/* 
+  --font-12: clamp(10px, 10px + 0.3vw, 12px);
+  --font-14: clamp(10px, 10px + 0.3vw, 14px);
+  --font-16: clamp(10px, 10px + 0.3vw, 16px);
+  --font-16-2: clamp(10.3px, 10.3px + 0.3vw, 16.4px);
+  --font-18: clamp(11.5px, 11.5px + 0.4vw, 18px);
+  --font-20: clamp(14px, 14px + 0.4vw, 20px);
+  --font-20-2: clamp(7px, 7px + 0.5vw, 20px);
+  --font-20-3: clamp(7.1px, 7.1px + 0.51vw, 20.3px);
+  --font-22: clamp(16px, 16px + 0.4vw, 22px);
+  --font-24: clamp(17px, 17px + 0.4vw, 24px);
+  --font-28: clamp(17px, 17px + 0.4vw, 28px);
+  --font-30: clamp(21px, 21px + 0.4vw, 30px);
+  --font-32: clamp(21px, 21px + 0.5vw, 32px);
+  --font-36: clamp(21px, 21px + 0.5vw, 36px);
+  --font-40: clamp(25px, 25px + 0.5vw, 40px);
+  --font-42: clamp(27px, 27px + 0.5vw, 42px);
+
+  --line-18: 1.8ex;
+  --line-21: 2.1ex;
+  --line-24: 2.4ex;
+  --line-25: 2.5ex;
+  --line-28: 2.8ex;
+  --line-30: 3ex;
+  --line-32: 3.2ex; */
