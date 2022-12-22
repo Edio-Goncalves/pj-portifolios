@@ -1,30 +1,25 @@
 .main-contact {
   display: flex;
   flex-direction: column;
-
-  box-sizing: border-box;
-
-  margin-left: 40px;
-  margin-right: 40px;
-
   text-align: left;
+  margin-left: min(40px, 5vw);
+  margin-right: min(40px, 5vw);
 }
 
 .main-contact .input {
-  font-size: 20px;
-  border: 5px solid black;
+  font-size: var(--font-22);
+  border: min(5px, 0.7vw) solid black;
   padding: 10px;
-  margin-bottom: 30px;
-  box-sizing: border-box;
+  margin-bottom: min(30px, 4vw);
 }
 
 .main-contact .label {
   color: var(--color-o-fifth);
-  font-size: 30px;
+  font-size: var(--font-30);
   font-family: "Fira Code", sans-serif;
   margin-bottom: 5px;
 }
 
 .main-contact .input.-textarea {
-  height: 300px;
+  height: min(300px, 60vw);
 }

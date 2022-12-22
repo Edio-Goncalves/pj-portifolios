@@ -26,7 +26,7 @@
   color: var(--color-o-fifth);
   text-shadow: none;
   font-size: var(--font-40);
-  margin-bottom: 60px;
+  margin-bottom: min(60px, 8vw);
   font-family: "Press Start 2P", sans-serif;
 }
 
