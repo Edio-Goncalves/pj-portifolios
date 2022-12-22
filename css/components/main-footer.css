@@ -1,8 +1,8 @@
 .main-footer {
   background-color: var(--color-black-first);
   text-align: center;
-  padding-top: 28px;
-  padding-bottom: 28px;
+  padding-top: min(28px, 4vw);
+  padding-bottom: min(28px, 4vw);
 }
 
 .main-footer .items {
