@@ -1,7 +1,6 @@
 .wrapper-project {
-  max-width: 1400px;
-  margin: auto;
-
   display: flex;
   justify-content: space-between;
+  width: 90%;
+  margin: auto;
 }

@@ -9,14 +9,6 @@
   --font-28: clamp(17px, 17px + 0.4vw, 28px);
   --font-30: clamp(16px, 16px + 1vw, 30px);
   --font-40: clamp(20px, 20px + 1.5vw, 40px);
-
-  --line-height-14: 14px;
-  --line-height-16: 16px;
-  --line-height-18: 18px;
-  --line-height-20: 20px;
-  --line-height-22: 22px;
-  --line-height-24: 24px;
-  --line-height-26: 26px;
 }
 /* 
   --font-12: clamp(10px, 10px + 0.3vw, 12px);

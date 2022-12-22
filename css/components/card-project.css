@@ -1,22 +1,25 @@
 .card-project {
-  height: 280px;
-  width: 280px;
+  height: min(280px, 25vw);
+  width: min(280px, 25vw);
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: min(10px, 1.5vw) min(10px, 1.5vw) 0 var(--color-o-fifth);
+}
+
+.card-project .logo {
+  height: 70%;
+  width: 70%;
 }
 
 .card-project.-firedlabs {
-  background-color: var(--color-fourth);
-  box-shadow: 10px 10px 0 var(--color-third);
+  background-color: var(--color-b-fourth);
 }
 
 .card-project.-collabcode {
-  background-color: var(--color-second);
-  box-shadow: 10px 10px 0 var(--color-third);
+  background-color: var(--color-b-second);
 }
 
 .card-project.-portifolio {
-  background-color: var(--color-avatar-a);
-  box-shadow: 10px 10px 0 var(--color-third);
+  background-color: var(--color-o-third);
 }
