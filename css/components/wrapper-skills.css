@@ -1,19 +1,14 @@
 .wrapper-skill {
   display: flex;
+  justify-content: center;
+  row-gap: min(60px, 5vw);
+  column-gap: min(100px, 9vw);
   flex-wrap: wrap;
-  max-width: 960px;
+  max-width: 100%;
   margin: auto;
-}
-
-.wrapper-skill .skill-tec {
-  margin-bottom: 40px;
-}
-
-.wrapper-skill .skill-tec:nth-child(odd) {
-  margin-right: 90px;
 }
 
 .wrapper-skill .progress-bar {
   height: 40px;
-  width: 260px;
+  width: clamp(120px, 120px + 15vw, 260px);
 }
