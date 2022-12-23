@@ -22,3 +22,9 @@
   height: clamp(5px, 5px + 0.4vw, 15px);
   margin-right: 10px;
 }
+
+@media (max-width: 800px) {
+  .main-action {
+    transition: none;
+  }
+}

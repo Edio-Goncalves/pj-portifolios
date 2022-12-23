@@ -30,3 +30,9 @@
   transform: scale(1.02);
   box-shadow: 5px 5px 0 var(--color-b-fifth);
 }
+
+@media (max-width: 800px) {
+  .main-button {
+    transition: none;
+  }
+}
