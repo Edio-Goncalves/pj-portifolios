@@ -1,5 +1,6 @@
 :root {
   --font-20: clamp(14px, 14px + 0.4vw, 20px);
+  --font-20-b: clamp(15px, 15px + 0.6vw, 20px);
   --font-22: clamp(12px, 12px + 0.7vw, 22px);
   --font-24: clamp(17px, 17px + 0.4vw, 24px);
   --font-26: clamp(16px, 16px + 0.4vw, 26px);

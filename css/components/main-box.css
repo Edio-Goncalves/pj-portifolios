@@ -9,13 +9,3 @@
 .main-box .main-tittle {
   margin-bottom: 38px;
 }
-
-@media (max-width: 800px) {
-  .main-box {
-    box-shadow: none;
-    padding: min(43px, 5vw) min(20px, 5vw);
-  }
-  .main-box .main-tittle {
-    margin-bottom: min(30px, 5vw);
-  }
-}

@@ -16,13 +16,11 @@
   left: 0px;
   margin-top: min(235px, 18vw);
   margin-left: min(50px, 2vw);
-  transition: all 250ms linear;
 }
 .main-banner .navigation {
   display: flex;
   justify-content: space-around;
   margin-top: min(40px, 3vw);
-  background-color: aqua;
 }
 
 @media (max-width: 800px) {
@@ -31,8 +29,25 @@
     margin: 0;
     width: 100%;
   }
+  .main-banner .main-box {
+    box-shadow: none;
+    padding-top: min(40px, 7vw);
+    padding-bottom: min(40px, 7vw);
+  }
+  .main-banner .main-box .main-tittle {
+    margin-bottom: min(30px, 5vw);
+  }
   .main-banner .navigation {
-    background-color: aqua;
+    margin: 0px;
     border-bottom: min(10px, 1.8vw) solid var(--color-black-first);
+  }
+  .main-banner .main-button {
+    box-shadow: none;
+    text-align: center;
+    width: 100%;
+    font-size: var(--font-20-b);
+  }
+  .main-banner .main-button:hover {
+    transform: none;
   }
 }
