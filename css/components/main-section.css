@@ -3,22 +3,21 @@
   text-align: center;
   padding-top: clamp(30px, 30px + 2vw, 50px);
   padding-bottom: clamp(50px, 50px + 4vw, 100px);
-  border-bottom: 10px solid var(--color-b-third);
+  border-bottom: min(10px, 1.8vw) solid var(--color-b-third);
 }
 
 .main-section.-black {
   background-color: var(--color-black-first);
-  border-bottom: 10px solid var(--color-o-second);
+  border-bottom: min(10px, 1.8vw) solid var(--color-o-second);
 }
 
 .main-section.-purple {
   background-color: var(--color-b-third);
-  border-bottom: 10px solid var(--color-black-first);
+  border-bottom: min(10px, 1.8vw) solid var(--color-black-first);
   position: relative;
 }
 
 .main-section.-gray {
   background-color: var(--color-black-second);
-  border-bottom: 10px solid var(--color-o-second);
-  /* padding-bottom: clamp(30px, 30px + 2vw, 50px); */
+  border-bottom: min(10px, 1.8vw) solid var(--color-o-second);
 }

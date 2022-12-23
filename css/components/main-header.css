@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: var(--color-b-third);
-  border-bottom: 10px solid var(--color-black-first);
+  border-bottom: min(10px, 1.8vw) solid var(--color-black-first);
   padding: 10px 20px;
 }
 
