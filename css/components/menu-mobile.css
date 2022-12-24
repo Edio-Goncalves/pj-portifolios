@@ -50,11 +50,14 @@
     transform: none;
   }
   #hamburger {
-    margin-right: 20px;
+    margin-right: min(25px, 5vw);
     display: block;
     width: 30px;
     border-top: 3px solid black;
     cursor: pointer;
+  }
+  #hamburger:hover {
+    transform: scale(1.06);
   }
 
   #hamburger::before,
@@ -65,5 +68,16 @@
     height: 3px;
     width: 30px;
     margin-top: 8px;
+    transition: 0.2s;
+  }
+
+  #menu-mobile.active #hamburger {
+    border-top: transparent;
+  }
+  #menu-mobile.active #hamburger::before {
+    transform: rotate(135deg);
+  }
+  #menu-mobile.active #hamburger::after {
+    transform: translateY(-10.5px) rotate(-135deg);
   }
 }

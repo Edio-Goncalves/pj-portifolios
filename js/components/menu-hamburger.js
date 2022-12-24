@@ -5,3 +5,4 @@ function toggleMenu() {
   active.classList.toggle("active");
 }
 menuMobile.addEventListener("click", toggleMenu);
+menuMobile.addEventListener("toggle", toggleMenu);
